@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* Version: 0.0.1; Time-stamp: <2022-01-02T10:16:33Z> */
+
+/*
+   Author:
+
+     JRF ( http://jrf.cocolog-nifty.com/statuses/ )
+
+   Repository:
+
+     https://github.com/JRF-2018/cocolog_helper
+
+   License:
+
+     Public Domain.
+*/
+
+body {
+	margin: 0px 0px 20px 0px;
+	border: 0;
+	padding: 0;
+		background: #fce0c8 url(http://jrf.cocolog-nifty.com/archive/image/PinkStripes2.png) repeat fixed;
+	
+        	text-align: center;
+        
+	}
+
+a {
+	text-decoration: underline;
+	}
+
+a:link {
+	color: #cc3333;
+	}
+
+a:visited {
+	color: darkred;
+	}
+
+a:active {
+	color: #ffcc33;
+	}
+
+a:hover {
+	color: #ffcc33;
+	}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	}
+
+#container {
+        line-height: 140%;
+        margin-top: 10px;
+        margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	padding: 0px;
+/*	width: 600px;
+*/
+        min-width: 600px;
+	width: 95%;
+	
+	background: #f3e0dd;
+	border: 1px solid black;
+	}
+
+#banner {
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	color: dimgray;
+	background: #f2b5a5;
+	text-align: left;
+	padding: 15px;
+	}
+
+#banner-img {
+	display: none;
+	}
+
+#banner a {
+	color: dimgray;
+	text-decoration: none;
+	}
+
+#banner h1 {
+	font-size: x-large;
+	font-weight: bold;
+	}
+
+#banner h2 {
+	margin-top: 1em;
+	font-size: small;
+}
+
+
+
+#center {
+        min-width: 450px;
+        width: 100%; 
+	overflow: hidden;
+	
+	background: #f1f2e0;
+	}
+
+.content {
+	padding: 15px 15px 5px 15px;
+	background: #f1f2e0;
+	
+	color: black;
+	font-family: 'MS PMincho', 'Hiragino Mincho Pro W3', Osaka, serif;
+	font-size: medium;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;
+	font-family: 'MS PGothic', 'Hiragino Kaku Gothic Pro W3', Osaka, sans-serif;
+	font-size: small;
+*/
+	}
+
+.content p {
+	color: black;
+	font-family: 'MS PMincho', 'Hiragino Mincho Pro W3', Osaka, serif;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;
+	font-size: small;
+*/
+	font-weight: normal;
+	line-height: 150%;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0.5ex;
+	}
+
+.content .text {
+	color: black;
+	font-family: 'MS PMincho', 'Hiragino Mincho Pro W3', Osaka, serif;
+/*	font-family: 'Trebuchet MS', Verdana, sans-serif;
+	font-size: small;
+*/
+	font-weight: normal;
+	line-height: 150%;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0.5ex;
+	}
+
+.content li {
+	line-height: 150%;
+	}
