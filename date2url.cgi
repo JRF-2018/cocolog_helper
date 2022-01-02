@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-our $VERSION = "0.0.1"; # Time-stamp: <2022-01-02T14:35:18Z>";
+our $VERSION = "0.0.2"; # Time-stamp: <2022-01-02T15:59:50Z>";
 
 ##
 ## Author:
@@ -314,7 +314,9 @@ sub main {
     $last = $DB_TABLE{'last'};
     untie(%DB_TABLE);
   }
-  if (defined $q && $q > $last && ! defined $r) {
+  my $lt = localtime;
+  $lt = $lt->strftime("%Y%m");
+  if (defined $q && $q <= $lt && $q > $last && ! defined $r) {
     $w = 1;
     tie(%DB_TABLE, $DBM_MODULE, $DBM, O_RDWR, 0666)
       or die "Couldn't tie $DBM_MODULE to $DBM: $!";
