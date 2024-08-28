@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-our $VERSION = "0.0.1"; # Time-stamp: <2022-01-02T09:59:15Z>";
+our $VERSION = "0.0.3"; # Time-stamp: <2024-08-28T09:03:38Z>";
 
 ##
 ## Author:
@@ -184,7 +184,7 @@ sub print_html {
 </div>
 <div id="center">
 <div class="content">
-<p>$q は <a href="$r">$r</a> です。<p/>
+<p>$q は <a href="$r">$r</a> です。</p>
 <p>${w}転送中です。$WAIT 秒待っても転送されないときは<a href="$r">ここ</a>をクリックしてください。</p>
 </div>
 </div>
