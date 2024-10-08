@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* Version: 0.0.1; Time-stamp: <2022-01-02T10:16:33Z> */
+/* Version: 0.0.3.1; Time-stamp: <2024-10-08T04:33:05Z> */
 
 /*
    Author:
@@ -60,7 +60,7 @@ h1, h2, h3 {
 	padding: 0px;
 /*	width: 600px;
 */
-        min-width: 600px;
+        /*min-width: 600px;*/
 	width: 95%;
 	
 	background: #f3e0dd;
@@ -97,7 +97,7 @@ h1, h2, h3 {
 
 
 #center {
-        min-width: 450px;
+        /*min-width: 450px;*/
         width: 100%; 
 	overflow: hidden;
 	
